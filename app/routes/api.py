@@ -119,9 +119,9 @@ def create():
     try:
         # create a new post
         newPost = Post(
-            title=data['title'],
-            post_url=data['post_url'],
-            user_id=session.get['user_id']
+            title = data['title'],
+            post_url = data['post_url'],
+            user_id = session.get('user_id')
         )
 
         db.add(newPost)
